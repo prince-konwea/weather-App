@@ -12,6 +12,10 @@ $(document).ready(function(){
             long = position.coords.longitude;
 
             var api = 'https://fcc-weather-api.glitch.me/api/current?lat='+ lat + '&lon='+ long + " ";
+            
+            $.getJSON(api,function(res){
+                
+            })
         })
     }
 });
